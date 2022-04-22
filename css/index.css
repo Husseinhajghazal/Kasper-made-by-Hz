@@ -1029,7 +1029,7 @@ header nav ul li a:hover {
 }
 /* End Contact */
 /* Start Footer */
-.footer {
+.footer-2 {
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url("../images/subscribe.jpg");
@@ -1038,7 +1038,7 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
 }
-.footer::before {
+.footer-2::before {
     content: "";
     position: absolute;
     left: 0;
@@ -1047,13 +1047,13 @@ header nav ul li a:hover {
     height: 100%;
     background-color: rgb(0 0 0 / 70%);
 }
-.footer .container {
+.footer-2 .container {
     position: relative;
 }
-.footer img {
+.footer-2 img {
     margin-bottom: 20px;
 }
-.footer p:not(.copyright) {
+.footer-2 p:not(.copyright) {
     text-transform: uppercase;
     padding: 20px;
     border-bottom: 1px solid white;
@@ -1061,13 +1061,13 @@ header nav ul li a:hover {
     width: fit-content;
     margin: 20px auto;
 }
-.footer .social-icons i {
+.footer-2 .social-icons i {
     padding: 10px 15px;
 }
-.footer .copyright {
+.footer-2 .copyright {
     margin-top: 60px;
 }
-.footer .copyright span {
+.footer-2 .copyright span {
     font-weight: bold;
     color: var(--main-color);
 }
